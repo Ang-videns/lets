@@ -1,0 +1,81 @@
+/*Colores principales */
+:root {
+    --color-primario: #2145e4; /* Negro */
+    --color-secundario: #571de0; /* Morado */
+    --color-terciario: #b11b1b; /* Rojo */
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-primario); /* Fondo negro */
+    color: #09061a; /* Color de texto principal */
+}
+
+header {
+    background-color: var(--color-secundario); /* Morado */
+    color: #0b0c13;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #080e0b;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: var(--color-terciario); /* Rojo */
+}
+
+section {
+    padding: 50px 20px;
+}
+
+/* Estilos específicos para secciones */
+#sobre-mi {
+    background-color: var(--color-secundario); /* Morado */
+}
+
+#proyectos {
+    background-color: var(--color-terciario); /* Rojo */
+}
+
+#contacto {
+    background-color: var(--color-primario); /* Negro */
+}
+
+/* Estilos para los proyectos */
+.proyecto {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff; /* Fondo blanco para resaltar */
+}
+
+/* Estilos para los enlaces */
+a {
+    color: var(--color-terciario); /* Rojo */
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--color-secundario); /* Morado */
+}
